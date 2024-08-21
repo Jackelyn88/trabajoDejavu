@@ -1,0 +1,141 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo general del cuerpo */
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #fce4ec; /* Rosa claro */
+    line-height: 1.6;
+}
+
+/* Estilo del header */
+header {
+    background-color: #f48fb1; /* Rosa más fuerte */
+    padding: 10px 0;
+    color: white;
+}
+
+nav {
+    background-color: #ec407a; /* Rosa intenso */
+}
+
+.nav-links {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+.nav-links li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 20px;
+    display: inline-block;
+}
+
+.nav-links a:hover {
+    background-color: #d81b60; /* Rosa más oscuro */
+    border-radius: 5px;
+}
+
+header h1 {
+    margin-bottom: 10px;
+    font-size: 2em;
+    text-align: center;
+}
+
+header p {
+    font-size: 1.2em;
+    text-align: center;
+}
+
+/* Estilo de las secciones */
+.section {
+    padding: 20px 0;
+}
+
+.container {
+    width: 90%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.profile-img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin: 0 auto 20px;
+    display: block;
+    border: 4px solid #ec407a; /* Rosa intenso */
+}
+
+h2 {
+    color: #ec407a; /* Rosa intenso */
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+h3 {
+    color: #d81b60; /* Rosa más oscuro */
+    margin-bottom: 10px;
+}
+
+.job, .education, .reference, .portfolio {
+    margin-bottom: 15px;
+    padding: 10px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+ul li {
+    margin-bottom: 8px;
+}
+
+button {
+    display: block;
+    width: 200px;
+    margin: 20px auto;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ec407a; /* Rosa intenso */
+    color: white;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #d81b60; /* Rosa más oscuro */
+}
+
+/* Estilo del footer */
+footer {
+    background-color: #f48fb1; /* Rosa más fuerte */
+    padding: 10px 0;
+    text-align: center;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    font-size: 0.9em;
+}
